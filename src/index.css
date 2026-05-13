@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+    background: #F7FBFD;
+    color: #121212;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { display: block; max-width: 100%; }
+  button, input, textarea, select { font-family: 'Raleway', Arial, sans-serif; }
+  button { cursor: pointer; border: none; background: none; }
+  a { text-decoration: none; color: inherit; }
+  ul { list-style: none; }
+}
+
+@layer utilities {
+  .scrollbar-none { scrollbar-width: none; }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+
+  /* line-clamp util */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
