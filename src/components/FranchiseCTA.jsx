@@ -7,7 +7,7 @@ export default function FranchiseCTA() {
             Franchise opportunity
           </div>
           <h3 className="font-display text-[clamp(1.95rem,4.8vw,3.75rem)] font-bold leading-[0.98] tracking-[-0.01em]">
-            Open a Labaan
+            Open a Qasr Laban
             <span className="block text-blue">delivery outlet.</span>
           </h3>
           <p className="mt-5 max-w-[520px] text-[0.95rem] font-light leading-[1.8] text-white/62">

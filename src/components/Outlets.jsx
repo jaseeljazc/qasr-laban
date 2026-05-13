@@ -18,7 +18,7 @@ export default function Outlets() {
             Delivery coverage
           </div>
           <h2 className="font-display text-[clamp(1.85rem,4.6vw,3.35rem)] font-bold leading-[1] text-ink">
-            Labaan is closer
+            Qasr Laban is closer
             <span className="block text-blue">than your craving.</span>
           </h2>
           <p className="mt-5 max-w-[420px] text-[0.92rem] font-light leading-[1.8] text-ink-soft">
