@@ -1,12 +1,13 @@
 import { useCart } from '../context/CartContext';
+import { Link } from 'react-router-dom';
 
 export default function BottomBar() {
   const { openCart } = useCart();
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-[100] flex items-center gap-2 border-t border-border bg-white/92 px-4 py-3 backdrop-blur-xl lg:hidden">
-      <a
-        href="#menu"
+      <Link
+        to="/#menu"
         className="inline-flex min-h-12 flex-1 items-center justify-center gap-2 rounded-full bg-blue px-5 text-[0.9rem] font-semibold text-white shadow-[0_12px_28px_rgba(0,162,228,0.24)]"
       >
         Order Now
@@ -14,7 +15,7 @@ export default function BottomBar() {
           <path d="M5 12h14" />
           <path d="m12 5 7 7-7 7" />
         </svg>
-      </a>
+      </Link>
       <button
         onClick={openCart}
         className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-border bg-white px-5 text-[0.9rem] font-semibold text-ink"

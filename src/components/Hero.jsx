@@ -31,7 +31,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 max-w-[470px] text-[0.96rem] font-light leading-[1.8] text-ink-soft lg:text-[1.05rem]">
-            Order layered qashtuta, salankatia, Nutella cups, and seasonal mango desserts from Labaan with fast local delivery across Kerala.
+            Order layered qashtuta, salankatia, Nutella cups, and seasonal mango desserts from Laban with fast local delivery across Kerala.
           </p>
 
           <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -94,7 +94,7 @@ export default function Hero() {
             <div className="flex items-center justify-between gap-3">
               <div>
                 <div className="text-[0.68rem] font-semibold uppercase tracking-[0.12em] text-blue">Live order</div>
-                <div className="mt-1 text-[1rem] font-semibold text-ink">Biscoff Nutella Salankatia</div>
+                <div className="mt-1 text-[1rem] font-semibold text-white">Biscoff Nutella Salankatia</div>
               </div>
               <div className="rounded-full bg-blue px-3 py-2 text-[0.78rem] font-semibold text-white">Rs 199</div>
             </div>
@@ -103,7 +103,7 @@ export default function Hero() {
               <div className="h-1.5 overflow-hidden rounded-full bg-blue-tint2">
                 <div className="h-full w-[72%] rounded-full bg-blue" />
               </div>
-              <span className="text-[0.72rem] font-medium text-ink-soft">18 min</span>
+              <span className="text-[0.72rem] font-medium text-white">18 min</span>
             </div>
           </div>
         </div>

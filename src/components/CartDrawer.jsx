@@ -19,7 +19,7 @@ export default function CartDrawer() {
 
         <div className="flex flex-shrink-0 items-center justify-between border-b border-border-soft px-5 py-5">
           <div>
-            <div className="text-[0.68rem] font-bold uppercase tracking-[0.13em] text-blue">Labaan cart</div>
+            <div className="text-[0.68rem] font-bold uppercase tracking-[0.13em] text-blue">Laban cart</div>
             <h3 className="mt-1 font-display text-[1.8rem] font-bold leading-none text-ink">
               Your Order {count > 0 && <span className="text-blue">({count})</span>}
             </h3>

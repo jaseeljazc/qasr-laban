@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
   return (
     <footer id="contact" className="bg-ink px-5 pb-24 pt-12 text-white lg:px-[5vw] lg:pb-12 lg:pt-16">
@@ -49,9 +51,9 @@ export default function Footer() {
         {/* <p>Copyright 2026 Labaan. A Flavorarc Foods Pvt. Ltd. Brand.</p> */}
         <div className="flex flex-wrap gap-4">
           {['Home', 'Menu', 'About', 'Franchise', 'Privacy', 'Terms'].map((label) => (
-            <a key={label} href={label === 'Menu' ? '#menu' : label === 'Franchise' ? '#franchise' : '#home'} className="transition hover:text-white">
+            <Link key={label} to={label === 'Menu' ? '/#menu' : label === 'Franchise' ? '/#franchise' : '/#home'} className="transition hover:text-white">
               {label}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

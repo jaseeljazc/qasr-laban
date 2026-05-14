@@ -27,7 +27,7 @@ export default function WhyUs() {
       <div className="mx-auto max-w-[1440px]">
         <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <div className="mb-3 text-[0.68rem] font-bold uppercase tracking-[0.13em] text-blue">Why choose Labaan</div>
+            <div className="mb-3 text-[0.68rem] font-bold uppercase tracking-[0.13em] text-blue">Why choose Laban</div>
             <h2 className="font-display text-[clamp(1.8rem,4.4vw,3rem)] font-bold leading-[1] text-ink">
               Delivery that respects
               <span className="block text-blue">the dessert.</span>

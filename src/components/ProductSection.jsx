@@ -25,11 +25,11 @@ function ProductCard({ product, rank }) {
             className="h-full w-full rounded-[16px] object-cover"
           />
           {product.badge && (
-            <span className={`absolute left-3 top-3 rounded-full px-3 py-1 text-[0.58rem] font-bold uppercase tracking-[0.1em] text-white ${badgeClass(product.badge)}`}>
+            <span className={`absolute left-4 top-4 rounded-full px-3 py-1 text-[0.58rem] font-bold uppercase tracking-[0.1em] text-white ${badgeClass(product.badge)}`}>
               {product.badge}
             </span>
           )}
-          <span className="absolute bottom-3 left-3 rounded-full bg-white/92 px-3 py-1.5 text-[0.7rem] font-semibold text-ink shadow-[0_10px_24px_rgba(0,0,0,0.14)] backdrop-blur">
+          <span className="absolute bottom-3 left-3 rounded-full bg-white/92 px-3 py-1.5 text-[0.7rem] font-semibold text-white shadow-[0_10px_24px_rgba(0,0,0,0.14)] backdrop-blur">
             #{rank} Trending
           </span>
         </div>
@@ -106,7 +106,7 @@ export default function ProductSection() {
             </h2>
           </div>
           <p className="max-w-[380px] text-[0.9rem] font-light leading-[1.8] text-ink-soft lg:text-right">
-            Choose a chilled cup, add it to cart, and Labaan prepares it fresh for a smooth doorstep handoff.
+            Choose a chilled cup, add it to cart, and Laban prepares it fresh for a smooth doorstep handoff.
           </p>
         </div>
 

@@ -90,7 +90,7 @@ export default function ProductDetailsPage() {
                   <div className="flex items-start justify-between gap-4">
                     <div>
                       <div className="text-[0.66rem] font-bold uppercase tracking-[0.13em] text-blue">Ready for delivery</div>
-                      <div className="mt-1 text-[0.92rem] font-semibold text-ink">Packed fresh from the nearest outlet.</div>
+                      <div className="mt-1 text-[0.92rem] font-semibold text-white">Packed fresh from the nearest outlet.</div>
                     </div>
                     <div className="rounded-full bg-blue px-3 py-2 text-[0.78rem] font-bold text-white">{product.rating}</div>
                   </div>
@@ -98,7 +98,7 @@ export default function ProductDetailsPage() {
                     {serviceNotes.map(([value, label]) => (
                       <div key={label} className="rounded-[16px] bg-[#F7FBFD] px-2 py-3 text-center">
                         <div className="text-[0.82rem] font-bold text-ink">{value}</div>
-                        <div className="mt-1 text-[0.56rem] uppercase tracking-[0.1em] text-ink-faint">{label}</div>
+                        <div className="mt-1 text-[0.56rem] uppercase tracking-[0.1em] text-black">{label}</div>
                       </div>
                     ))}
                   </div>
