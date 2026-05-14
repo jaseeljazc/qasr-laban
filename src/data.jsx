@@ -163,7 +163,7 @@ export const INGREDIENTS = [
 
 export const TESTIMONIALS = [
   { id: 1, initial: 'A', name: 'Anna K.', loc: 'Ernakulam',
-    text: "The Laban Spot offers the best desserts I've ever tasted! The kunafa layer with the creamy base is just absolutely divine, nothing like it in Kerala." },
+    text: "The Qasr Laban offers the best desserts I've ever tasted! The kunafa layer with the creamy base is just absolutely divine, nothing like it in Kerala." },
   { id: 2, initial: 'J', name: 'John M.', loc: 'Thiruvananthapuram',
     text: 'Every visit is a delightful experience. The mango laban variation is a must-try, refreshing and rich at the same time. I visit every weekend now!' },
   { id: 3, initial: 'P', name: 'Priya R.', loc: 'Kochi',
